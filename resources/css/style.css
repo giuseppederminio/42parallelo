@@ -1,5 +1,7 @@
 /* lo stile dovrebbe richiamare quello del sito colonnaluxurysuites*/
 
+/* colori */
+
 :root {
     --darkgray: rgba(43, 43, 43, 0.7019607843137254);
     --lightgray: rgb(232, 232, 232);
@@ -19,9 +21,10 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-/* .borderbottom {
-    background-color: #e3f2fd;
-} */
+.bg-dark {
+    background-color: var(--darkgray) !important;
+}
+
 .bg-light {
     background-color: var(--lightgray) !important;
 }
@@ -39,6 +42,9 @@ body {
     width: 100%;
     height: 10vh;
     background-color: var(--lightgray);
+}
+.h1cam {
+    font-weight: 500;
 }
 /* 
 .button1 {
@@ -61,53 +67,53 @@ body {
     text-decoration: none;
 } */
 
-
 /* footer welcome */
 
-.footerhome{
-    color : white;
-    background-color: var(--lightgray) ;
-   padding-bottom: 2vh;
-  
-   
+.footerhome {
+    color: white;
+    background-color: var(--lightgray);
+    padding-bottom: 2vh;
 }
 
 /* immagine centrale welcome */
-.imgWelContainer{
-    height: 78vh;
+.imgWelContainer {
+    height: 84vh;
     width: 100%;
     position: relative;
     overflow: hidden;
-
 }
-.imgWelc{
+.imgWelc {
     width: 100%;
-    height:100%;
+    height: 100%;
     position: absolute;
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-
 }
 
 /* dimensione immagini appartamenti */
 
-.dimim img{
+.dimim img {
     width: 400px;
-    height:320px;
+    height: 320px;
     margin: 2px;
-    border:  solid;  
-    transition: 1s;
+    border: solid;
+    /* transition: 1s; */
 }
-.image.zoomed { 
-    width: 600px;  
-    height: auto; 
+.image.zoomed {
+    width: 600px;
+    height: auto;
+}
 
-};
+/* bottoni lingua */
 
-
-
-
+.bottleng {
+    border: none;
+}
+.bottleng:hover {
+    color: blue;
+    cursor: pointer;
+}
 
 /* media query ,inserire sempre in fondo al foglio css*/
 

@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-3">
+  <div class="container container d-flex justify-content-around">
+    <div class="row w-100 justify-content-around">
+      <div class="col-3 d-flex m-0 p-0">
         
         <a class="navbar-brand" href="{{route('home')}}">42° parallelo</a>
       </div>
-      <div class="col-4">
+      <div class="col-6 justify content-center">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,10 +45,11 @@
         
       </div>
       
-      <div class="col-3">
+      <div class="col-3 d-flex justify-content-end">
         
-        <button id="english-btn">English</button>
-        <button id="italian-btn">Italiano</button>
+        <button class="bottleng bg-light">En</button>
+        <button class="bottleng bg-light">|</button>
+        <button class="bottleng bg-light">It</button>
       </div>
     </div>
   </div>
