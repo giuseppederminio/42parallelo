@@ -7,13 +7,12 @@
     --lightgray: rgb(232, 232, 232);
 }
 
-/* 
 body {
     background-image: url("../../public/img/IMG-20240207-WA0002.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-} */
+}
 
 .mr-auto1 {
     flex: 1;
