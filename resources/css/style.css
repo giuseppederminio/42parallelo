@@ -62,7 +62,7 @@ body {
 .button1:hover {
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
 } */
 
@@ -96,12 +96,13 @@ body {
     width: 400px;
     height: 320px;
     margin: 2px;
-    border: solid;
+    border: none;
     /* transition: 1s; */
 }
 .image.zoomed {
     width: 600px;
     height: auto;
+    z-index: 9999999;
 }
 
 /* bottoni lingua */
@@ -112,6 +113,24 @@ body {
 .bottleng:hover {
     color: blue;
     cursor: pointer;
+}
+
+/* footerVerde */
+.footerVerde{
+    height: auto;
+    background-color: var(--lightgray);
+    width: 100%;
+    margin-top: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+.footerVerde  p{
+    font-size: small;
+    max-width: 100%;
+
+    
 }
 
 /* media query ,inserire sempre in fondo al foglio css*/
@@ -125,5 +144,16 @@ body {
 @media screen and (min-width: 650px) {
     .displaynonebig {
         display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footerVerde {
+        padding: 10px; /* reduce padding on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footerVerde {
+        padding: 5px; /* reduce padding even further on very small screens */
     }
 }

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5 fixed-top">
   <div class="container container d-flex justify-content-around">
     <div class="row w-100 justify-content-around">
       <div class="col-3 d-flex m-0 p-0">
@@ -34,10 +34,10 @@
             </li> --}}
             
             <li class="nav-item">
-              <a class="nav-link" href="{{route('galleria.alba')}}">appartamento alba</a>
+              <a class="nav-link" href="{{route('galleria.alba')}}">Casa rosa</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="{{route('galleria.tramonto')}}">appartamento tramonto</a>
+              <a class="nav-link" href="{{route('galleria.tramonto')}}">Casa verde</a>
             </li>
           </ul>
           

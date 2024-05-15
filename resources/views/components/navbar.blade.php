@@ -1,5 +1,5 @@
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light borderbottom p-2 d-flex justify-content-around">
+    <nav class="navbar navbar-expand-md navbar-light borderbottom p-2 d-flex justify-content-around ">
         <a class="navbar-brand" href="{{route('home')}}">home</a>
         {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
