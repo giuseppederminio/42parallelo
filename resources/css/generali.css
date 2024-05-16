@@ -1,0 +1,26 @@
+:root {
+    --darkgray: rgba(43, 43, 43, 0.7019607843137254);
+    --lightgray: rgb(232, 232, 232);
+}
+
+body {
+    background-image: url("../../public/img/IMG-20240207-WA0002.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    max-width: 100vw; /* 100vw means 100% of the viewport width */
+    margin: 0 auto; /* center the body element horizontally */
+}
+.bg-dark {
+    background-color: var(--darkgray) !important;
+}
+
+.bg-light {
+    background-color: var(--lightgray) !important;
+}
+
+/* .layout{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+} */
