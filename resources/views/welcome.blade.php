@@ -1,27 +1,30 @@
 
 <x-layout>
-    
-    <div class="container-fluid m-0 p-0">
-        <div class="row">
-            
-            
-            
-            
-            <div class="col-12 imgWelContainer m-0 p-0">
-                {{--         
-                    <div class="d-flex justify-content-center" >
-                        <a href="{{route('contatti')}}" class="button1">contattaci</a>
-                    </div> --}}
-                    
-                    <img src="{{asset('img/1707372085260ROSA.jpg')}}" alt="" class="imgWelc displaynone m-0">
-                    <img src="{{asset('img/IMG-20240207-WA0006ROSA.jpg')}}" alt="" class="imgWelc displaynonebig m-0">
-                    
-                    
-                    
-                    
+    <div class="contWelc">
+        
+        
+        <div class="container-fluid m-0 p-0">
+            <div class="row m-0 p-0">
+                
+                
+                
+                
+                <div class="col-12 imgWelContainer m-0 p-0">
+                    {{--         
+                        <div class="d-flex justify-content-center" >
+                            <a href="{{route('contatti')}}" class="button1">contattaci</a>
+                        </div> --}}
+                        
+                        <img src="{{asset('img/1707372085260ROSA.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
+                        <img src="{{asset('img/IMG-20240207-WA0006ROSA.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
         
         
         <div class="container-fluid d-none" id="footerWelcCont">

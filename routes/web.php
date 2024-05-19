@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LocaleController;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\ArticleController;
 
@@ -22,4 +23,5 @@ Route::get('/article/index',[ArticleController::class,'index'])->name('article.i
 Route::get('/galleria/alba',[PublicController::class,'indexAlba'])->name('galleria.alba');
 Route::get('/galleria/tramonto',[PublicController::class,'indexTramonto'])->name('galleria.tramonto');
 
-
+// rotta cambio lingua
+Route::get('setlocale/{locale}', [LocaleController::class, 'setLocale'])->name('setlocale');

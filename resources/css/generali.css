@@ -24,3 +24,7 @@ body {
     width: 100%;
     flex-direction: column;
 } */
+html{
+    margin: 0px;
+    padding: 0px;
+}

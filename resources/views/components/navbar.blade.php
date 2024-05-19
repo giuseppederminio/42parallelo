@@ -1,45 +1,22 @@
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light borderbottom p-2 d-flex justify-content-around ">
-        <a class="navbar-brand" href="{{route('home')}}">home</a>
-        {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button> --}}
-        
-        <div 
-        {{-- class="collapse navbar-collapse"  --}}
-        
-        id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Appartamenti
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="nav-link" href="{{route('galleria.alba')}}">Appartamento Alba</a>
-                        <a class="nav-link" href="{{route('galleria.index')}}">Appartamento Tramonto</a>
-                      
-                    </div>
-                  </li>
-                
-                {{-- <li class="nav-item active">
-                    <a class="nav-link" href="{{route('galleria.index')}}">Appartamento Alba</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{route('galleria.index')}}">Appartamento Tramonto</a>
-                </li> --}}
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5 m-0 fixed-top">
+    <a class="navbar-brand" href="{{route('home')}}">42° Parallelo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        {{-- <a class="nav-item nav-link active" href="#">Home  --}}
+            {{-- <span class="sr-only">(current)</span></a> --}}
+        <a class="nav-item nav-link active" href="{{route('galleria.alba')}}">{{ __('messages.CasaRosa') }}</a>
+        <a class="nav-item nav-link active" href="{{route('galleria.tramonto')}}">{{ __('messages.CasaVerde') }}</a>
 
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{route('article.index')}}">scopri Termoli</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{route('contatti')}}">Scrivici</a>
-                </li>
-                
-            </ul>
-            
-        </div>
-    </nav>
-    
-    <!-- fine navbar -->
-    
+        {{-- <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a> --}}
+      </div>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+        <a class="bottleng bg-light" href="{{ route('setlocale', ['locale' => 'en']) }}">En</a>
+        <button class="bottleng bg-light">|</button>
+        <a class="bottleng bg-light" href="{{ route('setlocale', ['locale' => 'it']) }}">It</a>
+      </form>
+  </nav>
