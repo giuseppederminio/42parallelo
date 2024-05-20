@@ -1,12 +1,12 @@
 /* lo stile dovrebbe richiamare quello del sito colonnaluxurysuites*/
 
 
-.mr-auto1 {
+/* .mr-auto1 {
     flex: 1;
     margin: auto;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .lorem {
     position: relative;
@@ -70,20 +70,7 @@
     transform: translate(-50%, -50%); */
 }
 
-/* dimensione immagini appartamenti */
 
-.dimim img {
-    width: 400px;
-    height: 320px;
-    margin: 2px;
-    border: none;
-    /* transition: 1s; */
-}
-.image.zoomed {
-    width: 500px;
-    height: auto;
-    z-index: 9999999;
-}
 
 /* bottoni lingua */
 
