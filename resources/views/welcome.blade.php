@@ -1,6 +1,6 @@
 
 
-<x-layout>
+<x-layout1>
         
         
         <div class="container-fluid m-0 p-0">
@@ -46,6 +46,6 @@
         
         <x-footer></x-footer>
         <x-obblighi></x-obblighi>
-    </x-layout>
+    </x-layout1>
 
     
