@@ -28,3 +28,12 @@ html{
     margin: 0px;
     padding: 0px;
 }
+
+/* backgroun per schermi piccoli */
+
+@media screen and (max-width: 650px) {
+    body {
+        background-image: none;
+        background-color: var(--lightgray);
+    }
+}

@@ -1,6 +1,6 @@
 
+
 <x-layout>
-    <div class="contWelc">
         
         
         <div class="container-fluid m-0 p-0">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+     
         
         
         <div class="container-fluid d-none" id="footerWelcCont">
@@ -47,4 +47,5 @@
         <x-footer></x-footer>
         <x-obblighi></x-obblighi>
     </x-layout>
+
     
