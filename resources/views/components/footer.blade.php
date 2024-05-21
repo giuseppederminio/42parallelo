@@ -7,7 +7,7 @@
                 <div class="container ">
                     
                     <div class="row justify-content-between">
-                        <div class="col-5 mt-2 h1cam ">       
+                        <div class="col-9 mt-2 h1cam ">       
                             
                             
                             <div class="d-flex justify-content-start">      
