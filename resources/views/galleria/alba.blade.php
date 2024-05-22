@@ -1,44 +1,48 @@
 
 <x-layout>
-<div class="bg-dark">
+  <div class="bg-dark">
+      <div class="container">
+          <div class="row justify-content-center mt-5">
+              
+              <x-rosaBig></x-rosaBig>
+              
+              <x-rosaSmall></x-rosaSmall>
+              
+              {{-- <div class="col-6">
+                  <x-card></x-card>
+              </div> --}}
+              <x-footerRosa></x-footerRosa>
 
+              {{-- bottone schermi piccoli --}}
+              
+              <button type="button" class="btn btn-primary btn-floating" data-toggle="modal" data-target="#exampleModal">
+                {{ __('messages.cliccaQuiRosa') }} 
+                </button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{ __('messages.CasaRosa') }} </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        {{ __('messages.LAppartamentoRosa') }} 
 
-    {{-- <h1 class="text-center h1cam ml-12 pt-4 ">Prima Camera</h1> --}}
-    <div class="container-fluid">
-        <div class="row justify-content-between">
-            
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0006ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ __('messages.chiudi') }} </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0018ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0019ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0020ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0021ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-center m-2">
-                    <div class="card dimim">
-                        <img src="{{ asset('img/IMG-20240207-WA0032ROSA.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
-                    </div>
-                </div>
-         
-        </div>
-    </div>
-    
-</x-layout>
+
+          </div>
+      </div>
+      
+      
+      
+  </x-layout>
+  

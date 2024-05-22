@@ -15,7 +15,7 @@
                             <a href="{{route('contatti')}}" class="button1">contattaci</a>
                         </div> --}}
                         
-                        <img src="{{asset('img/1707372085260ROSA.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
+                        <img src="{{asset('img/back1.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
                         <img src="{{asset('img/IMG-20240207-WA0006ROSA.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">
                         
                         

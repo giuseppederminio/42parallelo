@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-12"> --}}
                 <p>
-                    {{ __('messages.footerVerde') }} 
+                    {{ __('messages.footerRosa') }} 
                 </p>
             {{-- </div>
         </div>
