@@ -5,8 +5,8 @@
 
 body {
     background-image:
-    /* url("../../public/img/IMG-20240207-WA0002.jpg"); */
-    url("../../public/img/back1.jpg");
+    url("../../public/img/IMG-20240207-WA0002.jpg");
+    /* url("../../public/img/back1.jpg"); */
     
     background-repeat: no-repeat;
     background-attachment: fixed;
