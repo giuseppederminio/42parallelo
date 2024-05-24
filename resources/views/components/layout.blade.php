@@ -13,7 +13,7 @@
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/XVU9+4dJ6d6i6fKB0FaZzFyIHZl8rWdqRHcLcthuw" crossorigin="anonymous" />
  
 </head>
 <body>   

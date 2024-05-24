@@ -42,7 +42,7 @@ html{
 }
 /* no background home */
 
-@media screen and (max-width: 650px) {
+@media screen {
     body#home {
         background-image: none;
         
