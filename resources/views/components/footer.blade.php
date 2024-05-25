@@ -125,7 +125,21 @@
                                         </div>
                                         <div class="modal-body listaservizi">
                                           
-                                            <p>...</p>
+                                            <p>{{ __('messages.or') }}</p>
+                                            <p>{{ __('messages.r2') }}</p>
+                                            <p>{{ __('messages.r3') }}</p>
+                                            <p>{{ __('messages.r4') }}</p>
+                                            <p>{{ __('messages.r5') }}</p>
+                                            <p>{{ __('messages.r6') }}</p>
+                                            <p>{{ __('messages.r7') }}</p>
+                                            <p>{{ __('messages.r8') }}</p>
+                                            <p>{{ __('messages.r9') }}</p>
+                                            <p>{{ __('messages.r10') }}</p>
+                                            <p>{{ __('messages.r11') }}</p>
+                                            <p>{{ __('messages.r12') }}</p>
+                                            <p>{{ __('messages.r13') }}</p>
+                                            <p>{{ __('messages.r14') }}</p>
+
                                         </div>
                                     </div>
                                 </div>

@@ -25,6 +25,22 @@ return [
 
     'reg'=>'regolamento',
 
+    'or' =>"L'orario del check-in è fissato alle 15:00, mentre il check-out è alle 11:00.",
+    'r2' =>"È assolutamente vietato portare animali di qualsiasi taglia o specie all'interno della struttura per garantire standard igienico-sanitari elevati.",
+    'r2'=> "È assolutamente vietato portare animali di qualsiasi taglia o specie all'interno della struttura per garantire standard igienico-sanitari elevati.",
+    'r3' =>"Il soggiorno è limitato a un massimo di 4 persone, neonati esclusi. Su richiesta, i neonati fino a 2 anni potranno avere a disposizione un lettino.",
+    'r4' =>"È severamente vietato fumare all'interno della casa. mentre è disponibile un'area esterna comune a servizio dei fumatori.",
+    'r5' =>"Gli ospiti sono responsabili per i danni causati agli arredi e agli accessori della casa e saranno tenuti a coprire i costi di riparazione o sostituzione.",
+    'r6' =>"La gestione dei rifiuti avviene conferendoli nei contenitori per la raccolta differenziata collocati nel locale sottoscala, esterno alla struttura. Gli ospiti avranno cura di portare fuori i contenitori nei giorni del rispettivo ritiro entro le 13 . Si richiede, inoltre, gentilmente, di chiudere accuratamente il magazzino dopo l'utilizzo. Ci scusiamo per l’eventuale disagio ma miriamo a conservare pulita e decorosa la struttura e la città.",
+    'r7' =>"È strettamente vietato organizzare feste o eventi all'interno della struttura senza autorizzazione preventiva.",
+    'r8' =>"È richiesta la comunicazione tempestiva di eventuali problemi o necessità di manutenzione per garantire un soggiorno piacevole.",
+    'r9' =>"Gli ospiti sono tenuti a rispettare le norme di sicurezza e a utilizzare correttamente gli impianti presenti, inclusi quelli elettrici e del gas, al fine di evitare incidenti o danni.",
+    'r10' =>"È vietato il subaffitto e la cessione della prenotazione.",
+    'r11' =>" All'esterno dell'abitazione, nell'area comune, sono disponibili due tavolini per godersi il tramonto o fare colazione, uno a disposizione per ogni appartamento.",
+    
+    'r12' =>"È previsto il cambio della biancheria e una pulizia dell'appartamento per un soggiorno superiore ad una settimana. Ulteriori pulizie verranno effettuate su richiesta, con spese a carico dell'ospite.",
+    'r13' =>"In caso di smarrimento di una o entrambe le chiavi elettroniche, l'ospite incorrerà in una sanzione di rispettivi euro 25 o 50. Entrambe le chiavi dovranno essere lasciate all'interno dell'appartamento alla fine del soggiorno, nell’apposito contenitore.",
+    'r14'=>" Vengono garantite la riservatezza e la protezione dei dati personali degli inquilini, conformemente alle normative vigenti sulla privacy.",
 
     
 

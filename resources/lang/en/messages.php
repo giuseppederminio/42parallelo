@@ -24,4 +24,19 @@ return [
     'po' => 'Book Now',
 
     'reg'=>'Regulations',
+    'or'=>"The check-in time is set at 3:00 PM, while the check-out is at 11:00 AM.",
+    'r2'=> "It is strictly forbidden to bring any size or species of pets inside the premises to ensure high hygiene and sanitation standards.",
+    'r3' =>"Maximum number of guests: The stay is limited to a maximum of 4 people, excluding infants. Upon request, infants up to 2 years old can have a crib available.",
+    'r4' =>"No smoking: Smoking inside the house is strictly prohibited. However, there is a common outdoor area available for smokers.",
+    'r5' =>"Guests are responsible for any damages caused to the furniture and accessories of the house and will be required to cover the costs of repair or replacement.",
+    'r6' =>"Waste management is carried out by disposing of it in the recycling bins located in the basement area outside the building. Guests will be responsible for taking out the bins on the respective collection days by 1:00 PM. Additionally, we kindly ask to securely close the storage area after use. We apologize for any inconvenience, but we aim to keep the property and the city clean and tidy.",
+    'r7' =>"No parties allowed: It is strictly forbidden to organize parties or events inside the premises without prior authorization.",
+    'r8' =>"Prompt communication of any problems or maintenance needs is required to ensure a pleasant stay.",
+    'r9' =>"Guests are required to comply with safety regulations and to correctly use the facilities provided, including electrical and gas appliances, to prevent accidents or damages.",
+    'r10' =>"Subletting and reservation transfer are prohibited.",
+    'r11' =>" Outside the residence, in the common area, two tables are available to enjoy the sunset or have breakfast, one for each apartment.",
+    
+    'r12' =>"A change of linen and cleaning of the apartment is provided for stays exceeding one week. Additional cleaning services are available upon request, with charges borne by the guest.",
+    'r13' =>"In case of loss of one or both electronic keys, the guest will incur a penalty of €25 or €50 respectively. Both keys must be left inside the apartment at the end of the stay, in the designated container.",
+    'r14'=>"The confidentiality and protection of tenants' personal data are guaranteed in accordance with current privacy regulations.",
 ];
