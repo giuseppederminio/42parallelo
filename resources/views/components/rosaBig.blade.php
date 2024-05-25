@@ -39,6 +39,15 @@
                     <div class="row justify-content-center">
                         <div class="col-12 d-flex justify-content-center m-2">
                             <div class="card dimim">
+                                <img src="{{ asset('img/r2.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 d-flex justify-content-center m-2">
+                            <div class="card dimim">
                                 <img src="{{ asset('img/r0052.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
                             </div>
                         </div>
@@ -48,7 +57,7 @@
                     <div class="row justify-content-center">
                         <div class="col-12 d-flex justify-content-center m-2">
                             <div class="card dimim">
-                                <img src="{{ asset('img/r0048.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
+                                <img src="{{ asset('img/r1.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                      
                             </div>
                         </div>
                     </div>
