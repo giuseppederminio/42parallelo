@@ -141,6 +141,9 @@
                                             <p>{{ __('messages.r14') }}</p>
 
                                         </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ __('messages.chiudi') }} </button>
+                                          </div>
                                     </div>
                                 </div>
                             </div>
