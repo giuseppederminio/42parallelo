@@ -11,8 +11,8 @@
             
             <div class="col-12 imgWelContainer m-0 p-0">                   
                 
-                <img src="{{asset('img/back1.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
-                <img src="{{asset('img/IMG-20240207-WA0006ROSA.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">  
+                <img src="{{asset('img/sh0030.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
+                <img src="{{asset('img/sh0035.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">  
                 
                 
                 

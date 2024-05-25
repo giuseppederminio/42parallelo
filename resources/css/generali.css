@@ -5,7 +5,7 @@
 
 body {
     background-image:
-    url("../../public/img/IMG-20240207-WA0002.jpg");
+    url("../../public/img/sh0030.jpg");
     /* url("../../public/img/back1.jpg"); */
     
     background-repeat: no-repeat;
@@ -31,15 +31,18 @@ html{
     margin: 0px;
     padding: 0px;
 }
+.marginbottom{
+    margin-bottom: 50vh;
+}
 
 /* backgroun per schermi piccoli */
-
+/* 
 @media screen and (max-width: 650px) {
     body {
-        background-image: url("../../public/img/back1.jpg");
+        background-image: url("../../public/img/sh0049(1).jpg");
         background-color: var(--lightgray);
     }
-}
+} */
 /* no background home */
 
 @media screen {
