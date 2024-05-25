@@ -9,6 +9,7 @@
             {{-- <span class="sr-only">(current)</span></a> --}}
         <a class="nav-item nav-link active" href="{{route('galleria.alba')}}">{{ __('messages.CasaRosa') }}</a>
         <a class="nav-item nav-link active" href="{{route('galleria.tramonto')}}">{{ __('messages.CasaVerde') }}</a>
+        <a href="https://www.booking.com/hotel/it/42deg-parallelo-termoli.it.html" class="text-primary nav-item nav-link active">{{ __('messages.po') }}</a>
 
         {{-- <a class="nav-item nav-link" href="#">Pricing</a>
         <a class="nav-item nav-link disabled" href="#">Disabled</a> --}}

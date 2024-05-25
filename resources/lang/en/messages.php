@@ -20,7 +20,8 @@ return [
     'as'=>'Towels',
     'cam' => 'Bathroom Emergency Bell',
     'pa'=> 'Patio',
-    'vm' => 'Vista Mare',
+    'vm' => 'Sea View',
+    'po' => 'Book Now',
 
     'reg'=>'Regulations',
 ];

@@ -21,6 +21,7 @@ return [
     'cam' => 'Campanello di emergenza nel bagno',
     'pa'=> 'Patio',
     'vm' => 'Vista Mare',
+    'po' => 'Prenota Ora',
 
     'reg'=>'regolamento',
 

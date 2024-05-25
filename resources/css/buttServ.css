@@ -8,7 +8,7 @@
     color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
-    min-width: 200px;
+    min-width: 150px;
   }
   
   .btn-secondary {
@@ -71,11 +71,11 @@
 
 /* bottone prenotazioni */
 
-.btn-sfizioso {
+/* .btn-sfizioso {
   background-color: var(--lightgray);
-  /* border-radius: 50px; */
+  border-radius: 50px; commenta
   padding: 10px;
-  /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); commenta
 }
 
 .btn-sfizioso .btn {
@@ -89,4 +89,4 @@
 
 .btn-sfizioso .btn:hover {
   background-color: #999;
-}
+} */
