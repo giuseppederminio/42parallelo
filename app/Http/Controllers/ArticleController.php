@@ -14,7 +14,7 @@ class ArticleController extends Controller
     {
         //$articles = Article
         // return view("", compact(""));
-        return view('/Article/index');
+        // return view('/Article/index');
     }
 
     /**
