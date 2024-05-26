@@ -16,7 +16,7 @@ class PublicController extends Controller
     }
     public function index()
     {
-        $immagini = File::files(public_path('img'));
+        $immagini = File::files(public_path('storage'));
 
         return view('galleria.index', compact('immagini'));
     }
@@ -25,19 +25,19 @@ class PublicController extends Controller
     }
     public function indexAlba()
     {
-        $immagini = File::files(public_path('img'));
+        $immagini = File::files(public_path('storage'));
 
         return view('galleria.alba', compact('immagini'));
     }
     public function indexTramonto(){
-        $immagini = File::files(public_path('img'));
+        $immagini = File::files(public_path('storage'));
         return view ('galleria.tramonto', compact('immagini'));
     }
 
     // public function showAtrioAlbaImages(Request $request)
     // {
     //     // Use public_path helper function to get the path to the public directory
-    //     $imagesPath = public_path('img/atrioalba');
+    //     $imagesPath = public_path('storage/atrioalba');
 
     //     // Use Storage facade to get all image files in the directory
     //     $images = Storage::files($imagesPath);

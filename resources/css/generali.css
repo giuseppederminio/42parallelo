@@ -5,8 +5,8 @@
 
 body {
     background-image:
-    url("../../public/img/sh0030.jpg");
-    /* url("../../public/img/back1.jpg"); */
+    url("../../public/storage/sh0030.jpg");
+    /* url("../../public/storage/back1.jpg"); */
     
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ html{
 /* 
 @media screen and (max-width: 650px) {
     body {
-        background-image: url("../../public/img/sh0049(1).jpg");
+        background-image: url("../../public/storage/sh0049(1).jpg");
         background-color: var(--lightgray);
     }
 } */

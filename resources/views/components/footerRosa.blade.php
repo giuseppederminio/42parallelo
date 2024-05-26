@@ -2,9 +2,9 @@
     {{-- <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12"> --}}
-                <p>
+                {{-- <p>
                     {{ __('messages.footerRosa') }} 
-                </p>
+                </p> --}}
             {{-- </div>
         </div>
     </div> --}}
