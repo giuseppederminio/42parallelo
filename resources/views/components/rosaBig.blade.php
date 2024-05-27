@@ -80,7 +80,7 @@
                     
                 
 
-                         
+                    url("../../../../public/storage/sh0030.jpg")
                    
                          
                   
