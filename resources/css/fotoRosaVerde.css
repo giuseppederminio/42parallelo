@@ -1,0 +1,65 @@
+/* grandi */
+.rvimg{
+    width: 400px;  /* Specifica la larghezza desiderata */
+    height: 275px;  /* Specifica l'altezza desiderata */
+
+    background-size: cover;  /* Adatta l'immagine alla dimensione del div */
+    background-position: center;  /* Centra l'immagine all'interno del div */
+    border-radius: 5%;
+    
+}
+.rvi{
+    width: 384px;  /* Specifica la larghezza desiderata */
+    height: 320px;  /* Specifica l'altezza desiderata */
+
+    background-size: cover;  /* Adatta l'immagine alla dimensione del div */
+    background-position: center;  /* Centra l'immagine all'interno del div */
+    border-radius: 5%;
+    
+}
+/* casa rosa */
+.r0005{
+    background-image:  url("../../public/storage/r0005.jpg");
+}
+.r0055{
+    background-image:  url("../../public/storage/r0055.jpg");
+}
+.r0016{
+    background-image:  url("../../public/storage/r0016.jpg");
+}
+.r2{
+    background-image:  url("../../public/storage/r2.jpg");
+}
+.r0052{
+    background-image:  url("../../public/storage/r0052.jpg");
+}
+.r1{
+    background-image:  url("../../public/storage/r1.jpg");
+}
+.r0009{
+    background-image:  url("../../public/storage/r0009.jpg");
+}
+.r0023{
+    background-image:  url("../../public/storage/r0023.jpg");
+}
+
+/* casa verde */
+
+.v0031{
+    background-image:  url("../../public/storage/v0031.jpg");
+}
+.v0047{
+    background-image:  url("../../public/storage/v0047.jpg");
+}
+.v0044{
+    background-image:  url("../../public/storage/v0044.jpg");
+}
+.v0046{
+    background-image:  url("../../public/storage/v0046.jpg");
+}
+.v0045{
+    background-image:  url("../../public/storage/v0045.jpg");
+}
+.v0038{
+    background-image:  url("../../public/storage/v0038.jpg");
+}
