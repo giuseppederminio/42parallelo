@@ -63,3 +63,20 @@
 .v0038{
     background-image:  url("../../public/storage/v0038.jpg");
 }
+
+/* welcome */
+
+.sh0030{
+    background-image:  url("../../public/storage/sh0030.jpg");
+    
+    background-size: cover;  /* Adatta l'immagine alla dimensione del div */
+    background-position: center;  /* Centra l'immagine all'interno del div */
+}
+
+.sh0035{
+    background-image:  url("../../public/storage/sh0035.jpg");
+    
+    background-size: cover;  /* Adatta l'immagine alla dimensione del div */
+    background-position: center;  /* Centra l'immagine all'interno del div */
+
+}

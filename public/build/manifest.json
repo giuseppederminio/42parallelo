@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-OZz6CH9_.css",
+    "file": "assets/app-L2EmvJpc.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -44,6 +44,10 @@
   "storage/app/public/sh0030.jpg": {
     "file": "assets/sh0030-DgWYzfpG.jpg",
     "src": "storage/app/public/sh0030.jpg"
+  },
+  "storage/app/public/sh0035.jpg": {
+    "file": "assets/sh0035-oGTQ0nXX.jpg",
+    "src": "storage/app/public/sh0035.jpg"
   },
   "storage/app/public/v0031.jpg": {
     "file": "assets/v0031-lq94WeFR.jpg",
