@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\LocaleController;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\ArticleController;
@@ -26,3 +27,6 @@ Route::get('/galleria/tramonto',[PublicController::class,'indexTramonto'])->name
 
 // rotta cambio lingua
 Route::get('setlocale/{locale}', [LocaleController::class, 'setLocale'])->name('setlocale');
+
+// link storage img
+Route::get('/linkstorage', function () {Artisan::call('storage:link');});

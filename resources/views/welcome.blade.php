@@ -12,8 +12,8 @@
             <div class="col-12 imgWelContainer m-0 p-0">                   
                 
                 {{-- <img src="{{asset('storage/sh0030.jpg')}}" alt="" class="imgWelc displaynone m-0 p-0">
-                <img src="{{asset('storage/sh0035.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">  
-                 --}}
+                <img src="{{asset('storage/sh0035.jpg')}}" alt="" class="imgWelc displaynonebig m-0 p-0">   --}}
+                 
         <div class="sh0030 imgWelc displaynone m-0 p-0"></div>       
         <div class="sh0035 imgWelc displaynonebig m-0 p-0"></div> 
         
