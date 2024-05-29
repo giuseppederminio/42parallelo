@@ -90,14 +90,14 @@
                     </div>
                     
                        
-                    <div class="row justify-content-center">
+                    {{-- <div class="row justify-content-center">
                         <div class="col-12 d-flex justify-content-center m-2">
                             <div class="dimim">
                                 <img src="{{ asset('storage/v048.jpg') }}" alt="Descrizione immagine" id="my-image" class="image ciao">                      
-                                {{-- <div class="image rvimg r0023"></div> --}}
+                                <div class="image rvimg r0023"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     
                 
 
