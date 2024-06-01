@@ -1,15 +1,7 @@
                 {{-- per schermi >650px --}}
                 <div class="col-12 mt-5 displaynone marginbottom">
                     
-                    <div class="row justify-content-center">
-                        
-                        <div class="col-12 d-flex justify-content-center m-2">
-                            <div class=" dimim ">
-                                {{-- <img src="{{ asset('storage/r0005.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                       --}}
-                                <div class="image rvimg v0031"></div>
-                            </div>
-                        </div>
-                    </div>
+               
 
                     {{-- <div class="row justify-content-center">
                         <div class="col-12 d-flex justify-content-center m-2">
@@ -45,6 +37,15 @@
                             <div class="dimim">
                                 {{-- <img src="{{ asset('storage/r0016.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                       --}}
                                 <div class="image rvimg v0046"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        
+                        <div class="col-12 d-flex justify-content-center m-2">
+                            <div class=" dimim ">
+                                {{-- <img src="{{ asset('storage/r0005.jpg') }}" alt="Descrizione immagine" id="my-image" class="image">                       --}}
+                                <div class="image rvimg v02"></div>
                             </div>
                         </div>
                     </div>

@@ -3,15 +3,7 @@
 
  <div class="col-12 mt-5 displaynonebig marginbottom">
                     
-    <div class="row justify-content-center">
-        
-        <div class="col-12 d-flex justify-content-center m-2">
-            <div class="dimi ">
-                {{-- <img src="{{ asset('storage/r0005.jpg') }}" alt="Descrizione immagine" id="my-image" class="">                       --}}
-                <div class="v0031 rvi" ></div>
-            </div>
-        </div>
-    </div>
+ 
     <div class="row justify-content-center">
         <div class="col-12 d-flex justify-content-center m-2">
             <div class=" dimi">
@@ -37,6 +29,15 @@
             </div>
         </div>
         
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-12 d-flex justify-content-center m-2">
+            <div class="dimi ">
+                {{-- <img src="{{ asset('storage/r0005.jpg') }}" alt="Descrizione immagine" id="my-image" class="">                       --}}
+                <div class="v02 rvi" ></div>
+            </div>
+        </div>
     </div>
 
     <div class="row justify-content-center">
