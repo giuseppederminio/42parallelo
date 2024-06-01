@@ -93,7 +93,7 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <ul class="listaservizi">
+                                            <ul class="listaservizi ">
                                                 <li>{{ __('messages.bi') }}</li>
                                                 <li>{{ __('messages.wi') }}</li>
                                                 <li>{{ __('messages.fri') }}</li>
@@ -123,7 +123,7 @@
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body listaservizi">
+                                        <div class="modal-body listaservizi ">
                                           
                                             <p>{{ __('messages.or') }}</p>
                                             <p>{{ __('messages.r2') }}</p>

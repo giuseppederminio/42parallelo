@@ -48,7 +48,7 @@
     cursor: pointer;
   }
   .listaservizi li,p,h6{
-    color: var(--darkgray);
+    color: black;
   }
 
   /* contatti */
