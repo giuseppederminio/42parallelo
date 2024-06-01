@@ -33,16 +33,16 @@
                             
                             <div class="contact-container d-flex flex-column align-items-start p-3">
                                 <div class="d-flex align-items-center p-2 contact-item">
-                                    <i class="fa-solid fa-phone m-1" style="color: #FFD43B;"></i>
-                                    <div class="ml-2">+39 3314931556</div>
+                                    <i class="fa-solid fa-phone m-1" style="color: #4D869C;"></i>
+                                    <div class="ml-2 b">+39 3314931556</div>
                                 </div>
                                 <div class="d-flex align-items-center p-2 contact-item">
-                                    <i class="fa-solid fa-house m-1" style="color: #FFD43B;"></i>
-                                    <div class="ml-2">Via dei Bastioni 13, 86039 Termoli, Italia</div>
+                                    <i class="fa-solid fa-house m-1" style="color: #4D869C;"></i>
+                                    <div class="ml-2 b">Via dei Bastioni 13, 86039 Termoli, Italia</div>
                                 </div>
                                 <div class="d-flex align-items-center p-2 contact-item">
-                                    <i class="fa-regular fa-envelope m-1" style="color: #FFD43B;"></i>
-                                    <div class="ml-2">giuliam170297@gmail.com</div>
+                                    <i class="fa-regular fa-envelope m-1" style="color: #4D869C;"></i>
+                                    <div class="ml-2 b">giuliam170297@gmail.com</div>
                                 </div>
                             </div>
 

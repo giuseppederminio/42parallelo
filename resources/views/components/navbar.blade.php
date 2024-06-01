@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 m-0 fixed-top">
-    <a class="navbar-brand" href="{{route('home')}}">42° Parallelo</a>
+    <a class="navbar-brand" href="{{route('home')}}"><h1 class="tn">42esimo Parallelo</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
