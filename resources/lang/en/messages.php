@@ -16,6 +16,7 @@ return [
     'wi'=>'Wi-Fi',
     'fri'=>'Refrigerator',
     'ma'=>'Coffee Machine',
+    'op'=>'Partner Beach Opportunities',
     'vi'=>'City View',
     'as'=>'Towels',
     'cam' => 'Bathroom Emergency Bell',

@@ -67,3 +67,9 @@ html{
         
     }
 }
+
+@media screen and (max-width: 410px) {
+    .tn {
+        font-size: 16px; /* reduce padding even further on very small screens */
+    }
+}

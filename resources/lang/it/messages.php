@@ -16,6 +16,7 @@ return [
     'wi'=>'Wi-Fi',
     'fri'=>'Frigorifero',
     'ma'=>'Macchina da Caffè',
+    'op'=>'Opportunità di Lido Convenzionato',
     'vi'=>'Vista Città',
     'as'=>'Asciugamani',
     'cam' => 'Campanello di emergenza nel bagno',

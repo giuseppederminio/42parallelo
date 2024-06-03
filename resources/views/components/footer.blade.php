@@ -98,6 +98,7 @@
                                                 <li>{{ __('messages.wi') }}</li>
                                                 <li>{{ __('messages.fri') }}</li>
                                                 <li>{{ __('messages.ma') }}</li>
+                                                <li>{{ __('messages.op') }}</li>
                                                 <li>{{ __('messages.vi') }}</li>
                                                 <li>{{ __('messages.vm') }}</li>
                                                 <li>{{ __('messages.as') }}</li>
